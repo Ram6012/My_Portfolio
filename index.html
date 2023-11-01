@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/6da6210b5f.js" crossorigin="anonymous"></script>
+</head>
+
+
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="images/logo.png" alt="" class="logo">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#About">About</a></li>
+                    <li><a href="#Services">Services</a></li>
+                    <li><a href="#Portfolio">Portfolio</a></li>
+                    <li><a href="#Contact">Contact</a></li>
+                    <i class="fas solid fa-xmark" onclick="closemenu()"></i>  <!--Cross icon-->
+                    
+                </ul>
+                <i class="fas solid fa-bars" onclick="openmenu()"></i>    <!--Menu icon-->
+            </nav>
+            <div class="header-text">
+                <strong>
+                    <p class="profession">Web Developer</p>
+                </strong>
+                <h1>Hi,I'm <span>Ram</span><br> From Pune,Maharashtra.</h1>
+            </div>
+        </div>
+
+    </div>
+    <!-------------------------About------------------------------------------>
+    <div id="About">
+        <div class="container">
+            <div class="row">
+                <div class="About-col-1">
+                    <img src="images/Professional img.jpg" alt="" height="624px" width="611px">
+                </div>
+                <div class="About-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>Enthusiastic and motivated Front-End Developer eager to kickstart a rewarding
+                        career in web development. Armed with a strong foundation in HTML, CSS, and
+                        JavaScript, I am passionate about creating seamless and visually appealing user
+                        experiences. Seeking an opportunity to contribute my skills and learn from
+                        experienced professionals to grow as a front-end developer and contribute to
+                        building innovative and user-centric websites and applications.</p>
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>Web development</span><br>Desisigning the Web Interfaces<br>Responsive-Web pages
+                            </li>
+                            <li><span>App development</span><br>Desisigning the App Interfaces</li>
+                        </ul>
+                    </div>
+                    <!--------Experience----------->
+                    <div class="tab-contents " id="experience">
+                        <ul>
+                            <li><span>2023</span><br>OctaNet Software Services-Web Developer,Itern<br></li>
+                            <li><span>2022</span><br>Oasis Infobyte-Web-Developer,Intern</li>
+                            <li><span>2021</span><br>Telecom Engineer Student Association,Leader</li>
+
+                        </ul>
+                    </div>
+                    <!--------Education----------->
+                    <div class="tab-contents " id="education">
+                        <ul>
+                            <li><span>BE-ECE</span><br>2019-2023,Grade-First Class</li>
+                            <li><span>HSC</span><br>2018-2019,Grade-First Class</li>
+                            <li><span>SSC</span><br>2016-2017,Grade-First Class</li>
+                        </ul>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+    </div>
+    <!----------------------Services------------------------------------------->
+    <div id="Services">
+        <div class="container">
+            <h1 class="sub-title">My Services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Web Design</h2>
+                    <p>Skilled web developer with expertise in front-end and back-end technologies.Proven track record
+                        in creating responsive and user-friendly websites.Proficient in HTML, CSS, JavaScript, and
+                        various web frameworks.</p>
+                    <a href="#">Learn More</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-crop"></i>
+                    <h2>Responsive Web-page</h2>
+                    <p> specialize in crafting responsive and user-friendly websites that adapt seamlessly across all
+                        devices. With a focus on performance and clean code, I create digital experiences that load fast
+                        and look stunning..</p>
+                    <a href="#">Learn More</a>
+                </div>
+                <div>
+                    <i class="fa-brands fa-apple"></i>
+                    <h2>Android developer</h2>
+                    <p>Expertise lies in building responsive Android apps that seamlessly integrate with web services,
+                        providing a harmonious user experience. With a focus on performance optimization and a keen eye
+                        for design, I ensure that your Android app not only functions flawlessly but also looks
+                        exceptional</p>
+                    <a href="#">Learn More</a>
+                </div>
+            </div>
+        </div>
+
+
+    </div>
+    <!-----------Portfolio :-------------------------------------------------->
+    <div id="Portfolio">
+        <div class="container">
+            <h1 class="sub-title">My Work</h1>
+            <div class="work-list">
+                <div class="work">
+
+                    <img src="images/work-1.png">
+                    <div class="layer">
+                        <h3>Social Media</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis iste ipsa, repellat eos
+                            ratione voluptatibus!</p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+
+                    <img src="images/work-2.png">
+                    <div class="layer">
+
+                        <h3>Social Media App</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis iste ipsa, repellat eos
+                            ratione voluptatibus!</p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+
+                    <img src="images/work-3.png">
+                    <div class="layer">
+                        <h3>Online Shoping App</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis iste ipsa, repellat eos
+                            ratione voluptatibus!</p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+
+
+
+            </div>
+
+
+            <a href="#" class="btn">See more</a>
+
+
+
+
+        </div>
+
+    </div>
+    <!-------------------------Contact :------------------------------------------->
+    <div id="Contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-Left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p><i class="fa-regular fa-paper-plane"></i>ramkendre5223@gmail.com</p>
+                    <p><i class="fa-solid fa-square-phone"></i>9130456012</p>
+                    <div class="social-icons">
+                        <a href="https://www.facebook.com/ram.kendre.790" target="_blank"><i
+                                class="fa-brands fa-facebook"></i></a>
+                        <a href=""><i class="fa-brands fa-twitter" target="_blank"></i></a>
+                        <a href="https://www.linkedin.com/in/rameshwar-kendre-3a7674248" target="_blank"><i
+                                class="fa-brands fa-linkedin"></i></a>
+                        <a href="https://www.instagram.com/ram__6012/" target="_blank"><i class="fa-brands fa-instagram" target="_blank"></i></a>
+                    </div>
+                    <a href="https://drive.google.com/file/d/143br3LimHTnrmQVa_CgOJKon2QmrDcbh/view?usp=drive_link"class="btn btn2"target="_blank">DOWNLOAD CV</a>
+
+                </div>
+                <div class="contact-right">
+                    <form name="submit-to-google-sheet">
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="Email" placeholder="Your E-mail" required>
+                        <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                        <button class="btn btn2">Submit</button>
+                        <p class="Note">Thank you for reaching out. Your message will be automatically saved upon clicking the ‘Submit’ button.</p>
+
+
+
+                    </form>
+                </div>
+
+            </div>
+
+
+
+
+        </div>
+        <div class="copyright">
+            <p>© Ram<i class="fa-sharp fa-regular fa-binary-circle-check"></i> All rights reserved<i class="fa-solid fa-heart"></i> by Rameshwar Kendre<br>for contact ramkendre5223@gmail.com</p>
+        </div>
+
+
+
+
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!---Script for About section------->
+    <script>
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+
+        function opentab(tabname) {
+            for (tablink of tablinks) {
+                tablink.classList.remove("active-link");
+            }
+            for (tabcontent of tabcontents) {
+                tabcontent.classList.remove("active-tabs");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tabs")
+        }
+
+    </script>
+    <!---Script for sidemenu------->
+    <script>
+        var sidemenu=document.getElementById("sidemenu");
+        function openmenu(){
+            sidemenu.style.right="0";
+        }
+        function closemenu(){
+            sidemenu.style.right="-200px";
+        }
+    </script>
+    
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbz7k11YyDBAmBc3dlANHS6pgtqYMs313-PrKzHBcBQQIWJFEzK4QAcFmcrWRpRDRguMGQ/exec'
+    const form = document.forms['submit-to-google-sheet']
+  
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => console.log('Success!', response))
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+
+</body>
+
+</html>
